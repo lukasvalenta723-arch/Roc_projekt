@@ -14,6 +14,12 @@ Hlavní cíle projektu:
     
   - Posledním úkolem tohoto projektu je ukrýt všechnu elektroniku zahrnující PWM modulátor, DC/DC měnič, spínače a baterie. Zde přichází bod, ve kterém se musím rozhodnout, jak udělám regulaci otáček motoru. V        prvním případě ji mohu provést pomocí DC-DC Step-Down měniče v trupu modelu, přičemž bude zároveň potřeba použít co nejtenčí a nejlehčí vodiče, aby nedošlo k narušení měřítka a integrity modelu. Popřípadě je      druhá, praktičtější možnost ukrytí baterie, spínačů a PWM do případného diorama (miniatura scény, která vytváří iluzi skutečnosti pomocí plastických modelů). Avšak toto řešení vede k problému s tím, kudy          povede kabeláž z modelu do dioramatu. Také je možnost tyto 2. možnosti zkombinovat, což je dále rozvedeno v Schématech zapojení větví.
 
+Současná podoba projektu:
+  Aktuálně se můj projekt nachází ve fázi, když už mám vybranou většinu součástek, co pro svoje plánované modifikace potřebuji. Na druhou stranu mi ještě zbývá dodělat spousta věcí. Jednou z těchto věcí je
+  dodělat samotná schémata zapojení, která už mám sice vymyšlená, ale zbývá mi jejich samotná vizualizace (nákres). Dále mi např. zbývá objednat všechny el. součástky, potřebuji dodělat modifikace samotného
+  modelu pro akomodaci el. součástek a na závěr se ještě musím rozhodnout, jakým způsobem nakonec provedu limitaci otáček motorů (tato problematika je dále rozvedena ve schématech zapojení motorů). Nejvíce času
+  trávím stavbou samotného modelu.
+
   
 Součástky:
 
@@ -63,6 +69,8 @@ Schémata zapojení větví:
 
   B. Blikající svit (Antikolizní/Stroboskopická světla)
    - Obě blikající LED diody (Bílá a Červená) jsou zapojeny paralelně k napájecí větvi (12.6 V). Ke každé LED je v sérii připojen její vlastní omezovací rezistor 470 Ω.
+
+
      
 Citace a odkazy:
 I. Primární zdroje (Komponenty a Inspirace)
