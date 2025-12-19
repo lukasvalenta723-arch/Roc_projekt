@@ -18,7 +18,7 @@ Hlavní cíle projektu:
     
   - Posledním úkolem tohoto projektu je ukrýt všechnu elektroniku zahrnující PWM modulátor, DC/DC měnič, spínače a baterie. Zde přichází bod, ve kterém se musím rozhodnout, jak udělám regulaci otáček motoru. V        prvním případě se dá provést pomocí DC-DC Step-Down měniče v trupu modelu, přičemž bude zároveň potřeba použít co nejtenčí a nejlehčí vodiče, aby nedošlo k narušení měřítka a integrity modelu. Popřípadě je
     druhá, praktičtější možnost ukrytí baterie, spínačů a PWM do případného diorama (miniatura scény, která vytváří iluzi skutečnosti pomocí plastických modelů). Avšak toto řešení vede k problému s tím, kudy
-    povede kabeláž z modelu do dioramatu. Také je možnost tyto 2. možnosti zkombinovat, což je dále rozvedeno v Schématech zapojení větví.
+    povede kabeláž z modelu do dioramatu. Také je možnost tyto 2. možnosti zkombinovat, což je dále rozvedeno ve Schématech zapojení větví.
 
 Současná podoba projektu:
 
@@ -30,6 +30,9 @@ Současná podoba projektu:
 Součástky:
 - Baterie:
      - LiPol Gens Ace Soaring G-Tech 3S 11.1V 1300mAh 30C (1ks)
+
+- Konektor:
+     - XT60 2 piny konektor (samec) (1ks)    
      
 - DC-DC Step-Down měnič:
      - LM2596 Modul (1ks)
@@ -55,10 +58,10 @@ Součástky:
        
 - Spínače:
      - Pro celkové napájení 
-       - Kolébkový nebo posuvný spínač
+       - Kolébkový nebo posuvný spínač (1ks)
     
      - Navigační, přistávací a antikolizní světla
-       - Posuvný spínač
+       - Posuvný spínač (3ks)
 
 Schémata zapojení větví:
 
@@ -87,7 +90,8 @@ Komponenty a inspirace
  - "5 kusů 6x12 mm bezjádrový mikromotor 3.7 V." Allegro.cz. Získáno 15. prosince 2025, z: https://allegro.cz/nabidka/5-kusu-6x12-mm-bezjadrovy-mikromotor-3-7-v-13926269146
  - "Studená bílá LED světla 1mm." Allegro.cz. Získáno 15. prosince 2025, z: https://allegro.cz/produkt/studena-bila-led-svetla-1mm-8247449e-5cd2-4b9d-a3f6-4dd796fc245d?offerId=17533497608
  - "Regulátor otáček motoru 1.8-5V DC 2A 30W." Allegro.cz. Získáno 15. prosince 2025, z: https://allegro.cz/nabidka/regulator-otacek-motoru-1-8-5v-dc-2a-30w-13487321048
- - "Akumulátor Gens Ace G-Tech Soaring 1300mAh 11.1V 30C 3S1P LiPo." Allegro.cz. Získáno 15. prosince 2025, z: https://allegro.cz/produkt/akumulator-gens-ace-g-tech-soaring-1300mah-11-1v-30c-3s1p-lipo-baterie-c167e944-1c47-4499-a924-c4064617a085?offerId=17791318479
+ - "Akumulátor Gens Ace G-Tech Soaring 1300mAh 11.1V 30C 3S1P LiPo." Peckamodel.cz . Získáno 15. prosince 2025, z: https://www.peckamodel.cz/gea133s30x6gt-gens-ace-lipo-g-tech-3s-1300-mah-30c-s-xt-60-konektorem?utm_source=google&utm_medium=cpc&utm_campaign=CZ%20-%20PMAx%20prodeje%20CZ%20-%20ostatn%C3%AD&utm_id=22648275247&gad_source=1&gad_campaignid=22648289434&gbraid=0AAAAAD5YthSrqGlMEhBcX-CZLkX6NPeBP&gclid=Cj0KCQiA6Y7KBhCkARIsAOxhqtP32FndogEf4Tb_JFmP88J7b8nOxGMYGGy4tM2ZfkQeOIegdOTPxpcaAl4oEALw_wcB
+ - "XT60 2 piny samec + samice - bateriový konektor." Dratek.cz. Získáno 19. prosince 2025, z: https://dratek.cz/arduino-platforma/51381-xt60-2-piny-samec-samice-bateriovy-konektor.html
  - "GSW Green LED Lights 1mm (10 ks)." Peckamodel.cz. Získáno 15. prosince 2025, z: https://www.peckamodel.cz/gsw8436554364121es-green-led-lights-1mm-10x
  - "GSW Red LED Lights 1mm (10 ks)." Peckamodel.cz. Získáno 15. prosince 2025, z: https://www.peckamodel.cz/gsw8436554363841es-red-led-lights-1mm-10x
  - "GSW Blinking LEDs Cool White 2mm (10 ks)." Peckamodel.cz. Získáno 15. prosince 2025, z: https://www.peckamodel.cz/gsw8435646510125es-blinking-leds-cool-white-2mm-10x
