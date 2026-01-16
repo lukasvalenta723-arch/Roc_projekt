@@ -4,7 +4,7 @@ Cíl mého ročníkového projektu:
 
   - Cílem mého ročníkového projektu je motorizace a kompletní el. osvětlení plastikového modelu bombardéru B-17 od značky Eduard v měřítku 1/48. Jako hlavní zdroj inspirace mi posloužilo jedno YouTube video, které
     jsem viděl před 5-6 lety, a bylo jedním z hlavních důvodů, proč mě tento můj koníček tehdy tak moc zaujal. Proto jsem si na něj vzpomněl po letech u příležitosti tohoto Ročníkového projektu. Každopádně, ve
-    zkratce se ve videu detailně ukazuje postup kompletní stavby a úpravy modelu letounu Douglas DC-3 v měřítku 1/48, přičemž je  kladen důraz na zahrnutí kompletního přistávacího, interiérového a ocasního
+    zkratce se ve videu detailně ukazuje postup kompletní stavby a úpravy modelu letounu Douglas DC-3 v měřítku 1/48, přičemž je  kladen důraz na zahrnutí kompletního přistávacího a ocasního
     osvětlení a motorizaci vrtulí s použitím mikroelektroniky. V případě zájmu je originální video, ze kterého jsem se inspiroval uvedeno v sekci Citace a odkazy.
 
 Hlavní cíle projektu:
@@ -16,10 +16,10 @@ Hlavní cíle projektu:
 
   - Vytvořit systém napájení s využitím 3S LiPo baterie (11.1 V / 12.6 V), který zvládne napájet obě větve obvodu (První větev bude pro motory, a druhá pro osvětlení).
     
-  - Posledním úkolem tohoto projektu je ukrýt všechnu elektroniku zahrnující PWM modulátor, DC/DC měnič, spínače a baterie. Zde přichází bod, ve kterém se musím rozhodnout, jak udělám regulaci otáček motoru. V        prvním případě se dá provést pomocí DC-DC Step-Down měniče v trupu modelu, přičemž bude zároveň potřeba použít co nejtenčí a nejlehčí vodiče, aby nedošlo k narušení měřítka a integrity modelu. Popřípadě je
-    druhá, praktičtější možnost ukrytí baterie, spínačů a PWM do případného diorama (miniatura scény, která vytváří iluzi skutečnosti pomocí plastických modelů). Avšak toto řešení vede k problému s tím, kudy
-    povede kabeláž z modelu do dioramatu. Také je možnost tyto 2. možnosti zkombinovat, což je dále rozvedeno ve Schématech zapojení větví.
+  - Posledním úkolem tohoto projektu je ukrýt všechnu elektroniku zahrnující PWM modulátor, DC/DC měnič, spínače a baterie. Po doporučení pana učitele Vintery jsem se rozhodl pro
+    druhou, více praktičtější možnost ukrytí baterie, spínačů a PWM do diorama (miniatura scény, která vytváří iluzi skutečnosti pomocí plastických modelů).
 
+    
 Současná podoba projektu:
 
   - Aktuálně se můj projekt nachází ve fázi, když už mám vybranou většinu součástek, co pro svoje plánované modifikace potřebuji. Na druhou stranu mi ještě zbývá dodělat spousta věcí. Jednou z těchto věcí je
@@ -78,7 +78,7 @@ Schémata zapojení větví:
    - Veškeré osvětlení v tomto obvodu je zapojeno paralelně k (12.6 V) napájecí větvi a je rozděleno do dvou spínaných podskupin: Navigační a přistávací světla.
 
   B. Blikající svit (Antikolizní/Stroboskopická světla)
-   - Obě blikající LED diody (Bílá a Červená) jsou zapojeny paralelně k napájecímu obvodu (12.6 V). Ke každé LED je v sérii připojen její vlastní omezovací rezistor 470 Ω.
+   - Obě blikající LED diody (Bílá a Červená) jsou zapojeny paralelně k napájecímu obvodu (12.6 V). Ke každé LED je v sérii připojen její vlastní omezovací rezistor 1,5 kΩ.
 
 Speciální poděkování:
 
