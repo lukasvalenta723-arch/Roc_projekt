@@ -22,10 +22,8 @@ Hlavní cíle projektu:
     
 Současná podoba projektu:
 
-  - Aktuálně se můj projekt nachází ve fázi, když už mám vybranou většinu součástek, co pro svoje plánované modifikace potřebuji. Na druhou stranu mi ještě zbývá dodělat spousta věcí. Jednou z těchto věcí je
-    dodělat samotná schémata zapojení, která už mám sice vymyšlená, ale zbývá mi jejich samotná vizualizace (nákres). Dále mi např. zbývá objednat všechny el. součástky, potřebuji dodělat modifikace samotného
-    modelu pro akomodaci el. součástek a na závěr se ještě musím rozhodnout, jakým způsobem nakonec provedu limitaci otáček motorů (tato problematika je dále rozvedena ve schématech zapojení motorů). Nejvíce času
-    trávím stavbou samotného modelu.
+  - Aktuálně se můj projekt nachází ve fázi, když už mám vybranou a nakoupenou většinu součástek, co pro svoje plánované modifikace potřebuji. Na druhou stranu mi stále ještě zbývá dodělat spousta věcí. Jednou z těchto věcí je
+    dodělat samotná schémata zapojení, která už mám sice vymyšlená, ale zbývá mi jejich samotná vizualizace (nákres). Dále potřebuji dodělat modifikace samotného modelu pro akomodaci el. součástek. Nejvíce času trávím stavbou samotného modelu.
 
 Součástky:
 - Baterie:
@@ -67,9 +65,7 @@ Schémata zapojení větví:
 
   I. Větev motorů:
    - Tato větev zajišťuje realistické otáčky pro čtyři motory, protože mají motory uvedené 21800 ot. /min. Z tohoto důvodu je potřeba do tohoto obvodu zakomponovat určitý způsob jejich limitace. Proto jsem zvolil
-     DC/DC měnič LM2596: Připojen k napětí (12.6 V). Výstupní napětí je pevně nastaveno na 3.7V (jmenovité napětí motorů). Dále se v obvodu nachází miniaturní spínač (min. 2A), který zapíná napájení regulátoru.
-     PWM regulátor, který nastavuje plynulé otáčky od nuly. Na vstupu je (3.7 V). Všechny čtyři motory jsou zapojeny paralelně k výstupu PWM regulátoru. Jako vodič použiji silikonové lanko 26 AWG (průřez 0.129
-     mm²).
+     DC/DC měnič LM2596: Připojen k napětí (12.6 V). Výstupní napětí je pevně nastaveno na 3.7 V (jmenovité napětí motorů). Dále se v obvodu nachází miniaturní spínač (min. 2A), který zapíná napájení PWM regulátoru. Ten nám nastavuje plynulé otáčky od nuly. Na vstupu je napětí 3,7 V. Všechny čtyři motory jsou zapojeny paralelně k výstupu PWM regulátoru. Jako vodič použiji silikonové lanko 26 AWG (průřez 0.129mm²).
 
   II. Větev osvětlení:
    - Všechny 1mm LED napájené pomocí (12 V) s vestavěným rezistorem jsou zapojeny paralelně k (12.6 V) obvodu, každá skupina má svůj vlastní spínač.
@@ -82,7 +78,7 @@ Schémata zapojení větví:
 
 Speciální poděkování:
 
-  - V tomto odstavci mi dovolte  vyjádřit upřímné poděkování mým přátelům Hlibu Tryhubovi a Tomáši Dobešovi. Jejich pomoc a cenné rady byly klíčové nejen při výběru vhodných elektronických součástek pro motorové      a osvětlovací obvody, ale i při konzultacích ohledně správného schématu zapojení celého modelu. Jejich podpora významně přispěla k prozatimní úspěšné realizaci projektu.
+  - V tomto odstavci mi dovolte  vyjádřit upřímné poděkování mým přátelům Hlibu Tryhubovi, Tomáši Dobešovi a panu Vinterovi. Jejich pomoc a cenné rady byly klíčové nejen při výběru vhodných elektronických součástek pro motorové      a osvětlovací obvody, ale i při konzultacích ohledně správného schématu zapojení celého modelu. Jejich podpora významně přispěla k prozatimní úspěšné realizaci projektu.
 
 Citace a odkazy:
 
